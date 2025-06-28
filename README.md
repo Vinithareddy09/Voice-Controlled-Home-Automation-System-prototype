@@ -25,4 +25,5 @@ A prototype system that demonstrates voice-controlled home automation using spee
    git clone https://github.com/Vinithareddy09/Voice-Controlled-Home-Automation-System-prototype.git
    cd Voice-Controlled-Home-Automation-System-prototype
 pip install speechrecognition pyttsx3 pyaudio
+
 python voice_control.py
