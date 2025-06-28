@@ -15,15 +15,19 @@ A prototype system that demonstrates voice-controlled home automation using spee
 - **Libraries**: 
   - `speech_recognition` – for capturing and interpreting voice
   - `pyttsx3` – for text-to-speech feedback
+  - `pyaudio` – for microphone access
   - `datetime` (optional) – for scheduling or logging
 - **Platform**: Desktop (CLI-based prototype)
 
 ## 📦 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Vinithareddy09/Voice-Controlled-Home-Automation-System-prototype.git
-   cd Voice-Controlled-Home-Automation-System-prototype
+```bash
+# Clone the repository
+git clone https://github.com/Vinithareddy09/Voice-Controlled-Home-Automation-System-prototype.git
+cd Voice-Controlled-Home-Automation-System-prototype
+
+# Install dependencies
 pip install speechrecognition pyttsx3 pyaudio
 
+# Run the assistant
 python voice_control.py
